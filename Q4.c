@@ -1,5 +1,5 @@
 #include <stdio.h>
-int NaturalNumber(int);
+void NaturalNumber(int);
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
 
     return 0;
 }
-int naturalNumbers(int number)
+void naturalNumbers(int number)
 {
     for(int i = 1 ; i <=number;i++)
     {
