@@ -1,5 +1,5 @@
 #include <stdio.h>
-int oddnaturalNumbers(int);
+void oddnaturalNumbers(int);
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
 
     return 0;
 }
-int oddnaturalNumbers(int number)
+void oddnaturalNumbers(int number)
 {
     for(int i = 1 ; i <=number;i++)
     {
